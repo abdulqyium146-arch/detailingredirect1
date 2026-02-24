@@ -1,0 +1,8 @@
+# robots.txt — SRV Detailing (car-wash-detailing.com)
+# Allows all search engines to crawl and index the full site.
+
+User-agent: *
+Allow: /
+
+# Point crawlers to the sitemap for faster indexing
+Sitemap: https://www.car-wash-detailing.com/sitemap.xml
