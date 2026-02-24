@@ -1,0 +1,25 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "srvdetailing.co.uk" }],
+      "destination": "https://www.srvdetailing.co.uk/$1",
+      "statusCode": 301
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "car-wash-detailing.com" }],
+      "destination": "https://www.srvdetailing.co.uk/$1",
+      "statusCode": 301
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.car-wash-detailing.com" }],
+      "destination": "https://www.srvdetailing.co.uk/$1",
+      "statusCode": 301
+    }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
